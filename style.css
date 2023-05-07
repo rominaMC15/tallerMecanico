@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+
+
+/*Header*/
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+.nav-link:hover{
+	color: white !important;
+}
+
+.borde{
+	border-bottom-color: solid 2px #dee2e6 !important;
+}
+
+/*Main*/
+
+main {
+	padding: 0;
+	background-color: #a7a4a4;
+}
+
+/*Section banner*/
+
+#banner {
+	background-image: url('/img/mano-mecanico.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px;
+    color: #fff;
+}
+
+#banner h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.button {
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.button:hover{
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#textosBanner{
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+/*Section services*/
+
+#services ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+.imgServicios{
+	width: 350px;
+	height: 220px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.servicios{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+
+.itemServicios{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px;
+}
+
+.itemServicios h3{
+	text-align: center;
+}
+
+/*Section Ubicacion*/
+
+.mapa{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+iframe{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*Section contact*/
+
+
+form{
+	margin: 20px;
+	padding: 20px;
+	background-color: #616161;
+	border-radius: 20px;
+}
+
+.botonForm:hover{
+	background-color: #ccc !important;
+	color: #333 !important;
+}
+
+input, textarea{ 
+	border: solid 2px black !important;
+}
+
+input:focus, textarea:focus{
+	outline: solid 3px #ccc !important;
+}
+
+textarea{
+	resize: none !important;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #a7a4a4;
+}
+
+
+
+
+
+  
