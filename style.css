@@ -147,6 +147,21 @@ iframe{
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+/*Section Promociones*/
+
+.promociones{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.textSpan{
+	font-size: 20px !important;
+	color: #333;
+	text-align: center;
+	font-weight: 600;
+}
+
 /*Section contact*/
 
 
